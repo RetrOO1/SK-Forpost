@@ -4,8 +4,6 @@
     left: 100px;
 }
 
-.year_of_create{
-    border-radius: 54px;
-    color:radial-gradient(82.13% 82.13% at 50% 53.07%, rgb(113, 173, 49) 0%, rgb(9, 79, 51) 100%);
+.year_of_create svg{
 
 }

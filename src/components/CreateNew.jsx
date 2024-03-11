@@ -34,7 +34,7 @@ const CreateNew = ({ active, setActive }) => {
             onChange={(e) => setTitle(e.target.value)}
             placeholder="Заголовок"
           />
-          <textarea
+          <input
             value={body}
             onChange={(e) => setBody(e.target.value)}
             placeholder="Описание"

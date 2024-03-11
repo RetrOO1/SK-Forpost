@@ -18,7 +18,7 @@ const About = () => {
             </div>
             <div className="slider">
                 <SliderCarousel />
-            </div>
+            </div> 
             <div className="year_of_create">
                 
             </div>

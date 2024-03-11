@@ -1,9 +1,18 @@
-.slider{
+.slider {
     display: flex;
     justify-content: center;
     left: 100px;
+    
 }
 
-.year_of_create svg{
+.year_of_create {
+   display: flex;
+   justify-content: center;
+   
+}
 
+.year_of_create img {
+  position: absolute;
+  margin-top: 30px;
+  
 }

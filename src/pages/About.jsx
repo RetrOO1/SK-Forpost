@@ -24,7 +24,7 @@ const About = () => {
                 <rect x="0.25" width="1600" height="733" rx="54" fill="url(#paint0_angular_28_643)" />
                 <rect x="0.25" width="1600" height="733" rx="54" fill="url(#paint1_radial_28_643)" />
                 <circle cx="306.25" cy="366" r="342.5" stroke="url(#paint2_linear_28_643)" />
-                <circle cx="306.25" cy="366" r="263.732" transform="rotate(54.6528 306.25 366)" stroke="url(#paint3_linear_28_643)" stroke-width="6" />
+                <circle cx="306.25" cy="366" r="263.732" transform="rotate(54.6528 306.25 366)" stroke="url(#paint3_linear_28_643)" stroke-width="6" ><img src="../img/image 7.png" alt="#" /> </circle>
                 <defs>
                     <radialGradient id="paint0_angular_28_643" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.250004 394.5) rotate(0.0696473) scale(1234 1472.59)">
                     <stop stop-color="#005E15" stop-opacity="0.77" />

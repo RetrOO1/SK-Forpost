@@ -1,0 +1,11 @@
+.new__button {
+    display: flex;
+    background-color: #D7D7D7;
+    color: #000000;
+    align-items: center;
+    justify-content: center;
+}
+
+.new__text {
+    margin: 10px;
+}

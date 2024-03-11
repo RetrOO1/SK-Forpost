@@ -1,0 +1,12 @@
+.submit__button {
+    width: 128px;
+    height: 34px;
+    background-color: #D7D7D7;
+}
+
+.submit__text {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    padding-top: 7px;
+}

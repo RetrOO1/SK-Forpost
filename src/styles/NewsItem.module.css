@@ -1,0 +1,29 @@
+.newsItem {
+    display: flex;
+    border: 1px solid #ffffff;
+    width: 580px;
+    height: 125px;
+}
+
+.newsItem img {
+    width: 178px;
+    height: 125px;
+    border: 1px solid #ffffff;
+}
+
+.newsItem div {
+    
+    display: flex;
+    padding: 16px;
+    width: 402px;
+    height: 125px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    color: #000000;
+    background: linear-gradient(270deg, rgba(113, 173, 49, 0.6) 0%, rgba(255, 255, 255, 0) 51.5%);
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}

@@ -1,0 +1,8 @@
+.delete__button {
+  border-radius: 5px;
+  width: 128px;
+  height: 34px;
+  background-color: #D7D7D7;
+  color: #FF6F6F;
+  border: none;
+}

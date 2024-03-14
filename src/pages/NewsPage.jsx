@@ -18,8 +18,6 @@ const News = () => {
       <div className="news__list">
         <AllNews/>
       </div>
-      
-      
     </div>
   );
 };

@@ -17,22 +17,20 @@ const CreateNew = ({ active, setActive }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     formData.append("file", file);
-    const response = await axios
-      .post("http://localhost:8000/news/picture", formData, {
+    const response = await axios.post("http://localhost:8000/news/picture", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
-      })
-      .then((response) => {
-        setPicture_url(response.data);
       });
+
+    setPicture_url(response.data);
     console.log(picture_url);
     await axios.post("http://localhost:8000/news/add", {
       title,
       body,
       picture_url,
     });
-    // window.location.reload();
+    window.location.reload();
   };
 
   return (

@@ -6,16 +6,33 @@ const CreateNew = ({ active, setActive }) => {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
   const [picture_url, setPicture_url] = useState("");
+  const [file, setFile] = useState(null);
 
+  const formData = new FormData();
+
+  const handleFileChange = (e) => {
+    setFile(e.target.files[0]);
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    formData.append("file", file);
+    const response = await axios
+      .post("http://localhost:8000/news/picture", formData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      })
+      .then((response) => {
+        setPicture_url(response.data);
+      });
+    console.log(picture_url);
     await axios.post("http://localhost:8000/news/add", {
       title,
       body,
       picture_url,
     });
-    window.location.reload();
+    // window.location.reload();
   };
 
   return (
@@ -40,14 +57,11 @@ const CreateNew = ({ active, setActive }) => {
             placeholder="Описание"
           />
           <input
-            type="url"
-            value={picture_url}
-            onChange={(e) => setPicture_url(e.target.value)}
+            type="file"
+            onChange={handleFileChange}
             placeholder="Изображение"
           />
-          <button onClick={handleSubmit}>
-            ДОБАВИТЬ НОВОСТЬ
-          </button>
+          <button onClick={handleSubmit}>ДОБАВИТЬ НОВОСТЬ</button>
         </form>
       </div>
     </div>

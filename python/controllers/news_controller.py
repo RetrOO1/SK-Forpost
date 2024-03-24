@@ -16,8 +16,8 @@ async def add_new(request: New, service: NewsService = Depends(get_news_service)
 @router.post("/picture")
 async def add_picture(file: UploadFile = File(None)):
     if file:
-        response = requests.post('https://api.imgbb.com/1/upload', params={'key': getenv('IMGBB_KEY')}, files={'image': await file.read()})
-    return response.json()["data"]["url"]
+        response = requests.post("https://api.imgbb.com/1/upload", params={'key': getenv('IMGBB_KEY')}, files={'image': await file.read()})
+        return response.json()["data"]["url"]
     
 
 @router.get("/get/{new_id}")

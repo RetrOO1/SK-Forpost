@@ -22,7 +22,6 @@ const CreateNew = ({ active, setActive }) => {
           "Content-Type": "multipart/form-data",
         },
       });
-
     setPicture_url(response.data);
     console.log(picture_url);
     await axios.post("http://localhost:8000/news/add", {

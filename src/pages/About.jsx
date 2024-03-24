@@ -16,41 +16,65 @@ const About = () => {
                     </svg> 
                 </div>
             </div>
-            <div className="slider">
-                <SliderCarousel />
-            </div> 
-            <div className="year_of_create">
-                <div className="kaska">
-                    <img src="https://i.ibb.co/cY1kLkK/Image.png" alt="Image" border="0"/>
-                </div>
-                <div className="panel">
-                    <svg width="1601" height="733" viewBox="0 0 1601 733" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="0.25" width="1600" height="733" rx="54" fill="url(#paint0_angular_28_643)" />
-                        <rect x="0.25" width="1600" height="733" rx="54" fill="url(#paint1_radial_28_643)" />
-                        <circle cx="306.25" cy="366" r="342.5" stroke="url(#paint2_linear_28_643)" />
-                        <circle cx="306.25" cy="366" r="263.732" transform="rotate(54.6528 306.25 366)" stroke="url(#paint3_linear_28_643)" stroke-width="6" />
+            <div className="about">
+                <div className="circle">
+                    <svg className="external_circle" width="625" height="562" viewBox="0 0 625 562" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="498.25" cy="64" r="497.5" stroke="#0D5B00" />
+                    </svg>
+                    <svg className="internal_circle" width="588" height="525" viewBox="0 0 588 525" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="461.25" cy="64" r="460.5" fill="url(#paint0_linear_2_377)" stroke="#128100" />
                         <defs>
-                            <radialGradient id="paint0_angular_28_643" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.250004 394.5) rotate(0.0696473) scale(1234 1472.59)">
-                            <stop stop-color="#005E15" stop-opacity="0.77" />
-                            <stop offset="0.505" stop-color="#004710" />
-                            </radialGradient>
-                            <radialGradient id="paint1_radial_28_643" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(800.25 389) rotate(90) scale(602 1314.05)">
+                            <linearGradient id="paint0_linear_2_377" x1="922.25" y1="63.9999" x2="57.0518" y2="63.9999" gradientUnits="userSpaceOnUse">
                             <stop stop-color="#71AD31" />
-                            <stop offset="1" stop-color="#094F33" />
-                            </radialGradient>
-                            <linearGradient id="paint2_linear_28_643" x1="649.25" y1="366" x2="107.383" y2="366" gradientUnits="userSpaceOnUse">
+                            <stop offset="1" stop-color="#71AD31" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div className="text__one">
+                    <h1>Оказываем полный спектр услуг </h1>
+                    <h1>проектирования и строительства</h1>
+                    <p>Мы делаем ставку не на большое количество заказов, </p>
+                    <p>а на профессиональный подход к их выполнению,</p>
+                    <p>что позволило нам заработать репутацию надежного</p>
+                    <p>и добросовестного бизнес-партнера</p>
+                </div>
+
+                <div className="slider">
+                    <SliderCarousel />
+                </div> 
+                <div className="panel">
+                    <div className="kaska">
+                        <svg className="external_border" width="650" height="686" viewBox="0 0 650 686" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="306.25" cy="343" r="342.5" stroke="url(#paint0_linear_28_644)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_28_644" x1="649.25" y1="343" x2="107.383" y2="343" gradientUnits="userSpaceOnUse">
                             <stop stop-color="white" />
                             <stop offset="0.0001" stop-color="white" />
                             <stop offset="1" stop-color="white" />
                             </linearGradient>
-                            <linearGradient id="paint3_linear_28_643" x1="572.982" y1="366" x2="151.602" y2="366" gradientUnits="userSpaceOnUse">
+                        </defs>
+                        </svg>
+                        <img src="https://i.ibb.co/cY1kLkK/Image.png" alt="Image" border="0"/>
+                        <svg className="internal_border" width="534" height="534" viewBox="0 0 534 534" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="267.25" cy="267" r="263.732" transform="rotate(54.6528 267.25 267)" stroke="url(#paint0_linear_28_645)" stroke-width="6" />
+                        <defs>
+                            <linearGradient id="paint0_linear_28_645" x1="533.982" y1="267" x2="112.602" y2="267" gradientUnits="userSpaceOnUse">
                             <stop stop-color="white" />
                             <stop offset="1" stop-color="white" stop-opacity="0" />
                             </linearGradient>
                         </defs>
-                    </svg>
-                </div> 
-            </div>
+                        </svg>
+                    </div>
+                    <div className="panel_text">
+                        <p className="p_one">2003</p>
+                        <p className="p_two">Год основания компании</p>
+                        <p className="p_three">237 Объектов было спроектировано и построено с 2003 года</p>   
+                        <p className="p_four">300 Человек - команда из профессиональных специалистов</p>
+                        <p className="p_five">50 Единиц техники находится в собственности компании</p>
+                    </div>
+                </div>
+            </div> 
         </div>
     )
 }

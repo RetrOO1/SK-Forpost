@@ -22,12 +22,6 @@ const Header = () => {
                     <HeaderButton/>
                 </div>
             </div>
-            
-            {/* <Router>
-                <Switch>
-                    <Route exact path='/' Component={}/>
-                </Switch>
-            </Router> */}
         </header>
     )
 }

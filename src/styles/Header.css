@@ -27,22 +27,3 @@
 .header__button {
     background-color: #D7D7D7;
 }
-
-.img img {
-    width: 100%
-}
-
-.img__frame {
-    display: flex;
-    width: 99%;
-    padding: 0px 16px 16px 16px;
-    justify-content: space-between;
-    align-items: flex-start; 
-    position: absolute;
-    left: 7px;
-    top: 615px; 
-    border-right: 1px solid #ffffff; 
-    border-bottom: 1px solid #ffffff; 
-    border-left: 1px solid #ffffff; 
-    z-index: 1;
-}

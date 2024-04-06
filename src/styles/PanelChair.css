@@ -1,33 +1,32 @@
 .panel_two {
-    margin: 0px 100px 0px 100px;
-    border-radius: 54px;
-    background: radial-gradient(
+  background: radial-gradient(
       82.13% 82.13% at 50% 53.07%,
       rgb(113, 173, 49) 0%,
       rgb(9, 79, 51) 100%
     );
+    width: 100%;
+    align-self: center;
     display: flex;
+    justify-content: space-between;
+    border-radius:54px;
+    padding:0px;
   }
 
-  .chair {
-    display: flex;
-    justify-content: center;
-    padding: 20px 0px 20px 0px;
-  }
-
-  .chair img {
-    position: absolute;
-    left: 100px;
-    z-index: 1;
+  .img2_container {
+    margin: 60px 20px 0px 0px;
   }
   
-  .panel_text {
+  .text {
+    position: static;
     display: flex;
-    gap: 10px;
     flex-direction: column;
     justify-content: center;
-    position: relative;
-    right: 300px;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 60px;
   }
   
   .p_one {
@@ -35,21 +34,40 @@
     font-size: 100px;
     color: #fff;
     text-transform: uppercase;
+    
   }
   
-  .p_two {
-    font-weight: 600;
-    font-size: 30px;
+  .p_two,.p_three,.p_four {
+    font-weight: 700;
+    font-size: 32px;
     color: #fff;
     text-transform: uppercase;
   }
   
-  .p_three,
-  .p_four,
-  .p_five {
-    font-weight: 300;
+  .p_five,
+  .p_six,
+  .p_seven {
+    font-weight: 400;
     font-size: 24px;
     color: #fff;
     text-transform: uppercase;
   }
   
+  @media screen and (max-width: 1200px) {
+  
+  }
+  
+  
+  @media screen and (max-width: 998px) {
+     
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+  
+  }
+  
+  
+  @media screen and (max-width: 576px) {
+  
+  }

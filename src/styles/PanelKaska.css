@@ -1,61 +1,95 @@
 .panel_one {
-    margin: 0px 100px 0px 100px;
-    border-radius: 54px;
+   width: 100%;
+    border-radius:54px;
+    align-self: center;
     background: radial-gradient(
       82.13% 82.13% at 50% 53.07%,
       rgb(113, 173, 49) 0%,
       rgb(9, 79, 51) 100%
     );
     display: flex;
+    justify-content: space-between;
   }
 
-  .internal_border {
-    position: relative;
-    top: 80px;
-    left: -610px;
+  .img_container {
+    margin: 20px 20px 20px 0px;
   }
 
-  .kaska {
+  .border_img {
     display: flex;
-    justify-content: center;
-    padding: 20px 0px 20px 0px;
+    align-items: center;
   }
 
-  .kaska img {
+  .border_img img {
     position: absolute;
-    left: 100px;
-    z-index: 1;
+  }
+
+  .external_border_img {
+    display: flex;
+    justify-self: center;
   }
   
-  .panel_text {
+  .internal_border_img {
     display: flex;
-    gap: 10px;
+    align-self: center;
+    position: absolute;
+    margin-left: 42px;
+  }
+  
+  .text_one {
+    position: static;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    position: relative;
-    right: 300px;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 100px;
+    gap: 10px;
   }
   
-  .p_one {
+  .one {
     font-weight: 550;
     font-size: 100px;
     color: #fff;
     text-transform: uppercase;
   }
   
-  .p_two {
+  .two {
     font-weight: 600;
     font-size: 30px;
     color: #fff;
     text-transform: uppercase;
   }
   
-  .p_three,
-  .p_four,
-  .p_five {
-    font-weight: 300;
+  .three,
+  .four,
+  .five {
     font-size: 24px;
     color: #fff;
     text-transform: uppercase;
   }
   
+  @media screen and (max-width: 1200px) {
+    
+   
+  }
+  
+  
+  @media screen and (max-width: 998px) {
+      
+
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+  
+  
+  }
+  
+  
+  @media screen and (max-width: 576px) {
+  
+  }

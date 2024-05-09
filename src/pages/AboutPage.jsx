@@ -9,7 +9,7 @@ const About = () => {
     return(
         <div>
             <div className="img">
-                <img src="https://i.ibb.co/WGmgr70/Image.png" alt="#" />
+                <img src="https://vk.com/doc251462616_679977152?hash=oJUBPuO7uiiorVWrY7ZsHAQSEIfm6AjzJWwx4yEgOPX&dl=pdMUNnUkd8Rwm7aV2voBm9JCLAe2keMIIGkXcEhOHHT" alt="" />
             </div>
             <div className="about">
                 <div className="circle">
@@ -34,7 +34,26 @@ const About = () => {
                     <p>что позволило нам заработать репутацию надежного</p>
                     <p>и добросовестного бизнес-партнера</p>
                 </div>
-                {/* <Slider/> */}
+                <div className="jobs">
+                    <div className="job1">
+                        <img src="https://i.ibb.co/JjvbJwV/Image-3.png" alt="" />
+                    </div>
+                    <div className="job2">
+                        <img src="https://i.ibb.co/JjvbJwV/Image-3.png" alt="" />
+                    </div>
+                    <div className="job3">
+                        <img src="https://i.ibb.co/JjvbJwV/Image-3.png" alt="" />
+                    </div>
+                    <div className="job4">
+                        <img src="https://i.ibb.co/JjvbJwV/Image-3.png" alt="" />
+                    </div>
+                    <div className="job5">
+                        <img src="https://i.ibb.co/JjvbJwV/Image-3.png" alt="" />
+                    </div>
+                    <div className="job6">
+                        <img src="https://i.ibb.co/JjvbJwV/Image-3.png" alt="" />
+                    </div>
+                </div>
                 <PanelKaska/>
                 <PanelChair/>
             </div> 

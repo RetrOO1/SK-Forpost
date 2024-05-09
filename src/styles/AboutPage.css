@@ -1,12 +1,68 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1920px) {
   
+  .about {
+    margin: 0px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    gap : 32px;
+    padding:128px 0px;
+  }
+  
+  .slider {
+    display: flex;
+    justify-content: center;
+    margin: 0px 100px 0px 100px;
+  }
+  
+  .circle {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 132px;
+    
+  }
+  
+  .external_circle {
+    position: relative;
+    left: 580px;
+    stroke-width: 1px;
+    stroke: #0d5b00;
+  }
+  
+  .internal_circle {
+    fill: linear-gradient(270deg, #71ad31 0%, rgba(113, 173, 49, 0) 100%);
+    stroke-width: 1px;
+    stroke: #128100;
+  }
+  
+  .text__one{
+    position: absolute;
+  }
+  
+  .text__one h1{
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #000;
+  }
+  
+  .text__one p{
+    font-weight: 200;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .jobs{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30%;
+  }
 }
 
 
 @media screen and (max-width: 998px) {
-    .img img {
-        width: 80%;
-    }
+    
 }
 
 
@@ -20,62 +76,5 @@
 
 }
 
-.img img {
-  width: 100%
-}
-
-.about {
-  margin: 0px 100px 0px 100px;
-  display: flex;
-  flex-direction: column;
-  gap : 32px;
-  padding:128px 0px;
-}
-
-.slider {
-  display: flex;
-  justify-content: center;
-  margin: 0px 100px 0px 100px;
-}
-
-.circle {
-  display: flex;
-  justify-content: end;
-  position: relative;
-  bottom: 132px;
-  
-}
-
-.external_circle {
-  position: relative;
-  left: 580px;
-  stroke-width: 1px;
-  stroke: #0d5b00;
-}
-
-.internal_circle {
-  fill: linear-gradient(270deg, #71ad31 0%, rgba(113, 173, 49, 0) 100%);
-  stroke-width: 1px;
-  stroke: #128100;
-}
-
-.text__one{
-  position: absolute;
-  margin: 0px 100px;
-}
-
-.text__one h1{
-  font-weight: 700;
-  font-size: 32px;
-  text-transform: uppercase;
-  color: #000;
-}
-
-.text__one p{
-  font-weight: 200;
-  font-size: 21px;
-  text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.6);
-}
 
 

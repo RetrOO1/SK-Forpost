@@ -17,6 +17,7 @@
   }
   
   .text {
+    gap: 30px;
     position: static;
     display: flex;
     flex-direction: column;
@@ -34,6 +35,7 @@
     font-size: 100px;
     color: #fff;
     text-transform: uppercase;
+    margin-bottom: 10px;
     
   }
   

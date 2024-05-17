@@ -1,6 +1,5 @@
 import React from "react";
 import '../styles/AboutPage.css'
-
 import PanelKaska from "../components/PanelKaska";
 import PanelChair from "../components/PanelChair";
 
@@ -9,10 +8,10 @@ const AboutPage = () => {
     return(
         <div>
             <div className="img">
-                <img src="https://i.postimg.cc/QdXHbvry/Image.png" alt="" />
+                <img src="https://i.postimg.cc/QdXHbvry/Image.png" alt="#" />
             </div>
             <div className="about">
-                <div className="circle">
+                {/* <div className="circle">
                     <svg className="external_circle" width="625" height="562" viewBox="0 0 625 562" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="498.25" cy="64" r="497.5" stroke="#0D5B00" />
                     </svg>
@@ -25,7 +24,7 @@ const AboutPage = () => {
                             </linearGradient>
                         </defs>
                     </svg>
-                </div>
+                </div> */}
                 <div className="services">
                     <div className="text__one">
                         <h1>Оказываем полный спектр услуг проектирования и строительства</h1>
@@ -53,9 +52,9 @@ const AboutPage = () => {
                             <img src="https://i.postimg.cc/LsW5mXgc/Image-2.png" alt="#" />
                         </div>
                     </div>
-                </div>
-                    
+                </div> 
                 <PanelKaska/>
+                
                 <PanelChair/>
             </div> 
         </div>

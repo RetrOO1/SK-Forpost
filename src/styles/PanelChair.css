@@ -1,4 +1,4 @@
-.panel_two {
+ .panel_two {
   background: radial-gradient(
       82.13% 82.13% at 50% 53.07%,
       rgb(113, 173, 49) 0%,
@@ -11,7 +11,6 @@
     border-radius:54px;
     padding:0px;
   }
-
   .img2_container {
     margin: 60px 20px 0px 0px;
   }
@@ -33,7 +32,7 @@
   .p_one {
     font-weight: 550;
     font-size: 100px;
-    color: #fff;
+    color: #000000;
     text-transform: uppercase;
     margin-bottom: 10px;
     
@@ -42,7 +41,7 @@
   .p_two,.p_three,.p_four {
     font-weight: 700;
     font-size: 32px;
-    color: #fff;
+    color: #000000;
     text-transform: uppercase;
   }
   

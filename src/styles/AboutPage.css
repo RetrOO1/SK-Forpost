@@ -1,4 +1,4 @@
-@media screen and (max-width: 1920px) {
+
   .img img {
     width: 100%;
   }
@@ -38,6 +38,7 @@
   }
   
   .text__one{
+    font-size: clamp(14px, calc(12px + 1vw), 32px);
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -46,16 +47,15 @@
   }
   
   .text__one h1{
+    font-size: clamp(14px, calc(12px + 1vw), 32px);
     font-weight: 700;
-    font-size: 32px;
     text-transform: uppercase;
     color: #000;
   }
   
   .text__one p{
-    
+    font-size: clamp(14px, calc(12px + 1vw), 21px);
     font-weight: 200;
-    font-size: 21px;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.6);
   }
@@ -74,23 +74,6 @@
     grid-template-columns: 22% 22% 22%;
     grid-template-rows: 22% 22% 22%;
   }
-}
-
-
-@media screen and (max-width: 998px) {
-    
-}
-
-
-@media screen and (max-width: 768px) {
-
-
-}
-
-
-@media screen and (max-width: 576px) {
-
-}
 
 
 

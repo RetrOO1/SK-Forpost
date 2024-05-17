@@ -4,7 +4,7 @@ import '../styles/PanelKaska.css'
 const PanelKaska = () => {
     return(
         <div className="panel_one">
-            <div className="img_container">
+            {/* <div className="img_container">
                 <div className="border_img">
                     <svg className="external_border_img" width="650" height="686" viewBox="0 0 650 686" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="306.25" cy="343" r="342.5" stroke="url(#paint0_linear_28_644)" />
@@ -27,15 +27,25 @@ const PanelKaska = () => {
                     </svg>
                     <img src="https://i.postimg.cc/8zPzWWR8/image-5.png" alt="" />
                 </div>
-            </div>
+            </div> */}
             <div className="text_one">
-                <p className="one">2003</p>
-                <p className="two">Год основания компании</p>
-                <p className="three">237 Объектов было спроектировано и построено с 2003 года</p>   
-                <p className="four">300 Человек - команда из профессиональных специалистов</p>
-                <p className="five">50 Единиц техники находится в собственности компании</p>
+                <div className="year">
+                    <p className="one">2003</p>
+                    <p className="two">Год основания компании</p>
+                </div>
+                <div className="objects">
+                    <p className="one">237 </p>
+                    <p className="two">Объектов было<br />спроектировано и построено</p>   
+                </div>
+                <div className="peoples">
+                    <p className="one">300</p>
+                    <p className="two">Человек - команда из<br />профессиональных специалистов</p>
+                </div>
+                <div className="technics">
+                    <p className="one">Больше 50</p>
+                    <p className="two"> единиц техники находится в<br />собственности компании</p>
+                </div>
             </div>
-            
         </div>
     )
 }

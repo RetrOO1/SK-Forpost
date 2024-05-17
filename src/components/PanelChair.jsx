@@ -24,7 +24,7 @@ const PanelChair = () => {
                         </linearGradient>
                     </defs>
                     </svg>
-                    <img src="https://i.ibb.co/DfHJsmk/image-5.png" alt="" />
+                    <img src="https://i.postimg.cc/Gm7hj2K4/Image-4.png" alt="" />
                 </div>
             </div>
             <div className="text">

@@ -1,6 +1,6 @@
 import React from 'react'
-import "../../styles/Header.css"
-import HeaderButton from './Button/HeaderButton'
+import "../styles/Header.css"
+import HeaderButton from './UI/Button/HeaderButton'
 import { Link } from 'react-router-dom'
 
 

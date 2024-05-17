@@ -25,7 +25,7 @@ const PanelKaska = () => {
                         </linearGradient>
                     </defs>
                     </svg>
-                    <img src="https://i.ibb.co/cY1kLkK/Image.png" alt="" />
+                    <img src="https://i.postimg.cc/8zPzWWR8/image-5.png" alt="" />
                 </div>
             </div>
             <div className="text_one">

@@ -1,5 +1,7 @@
 @media screen and (max-width: 1920px) {
-  
+  .img img {
+    width: 100%;
+  }
   .about {
     margin: 0px 100px 0px 100px;
     display: flex;
@@ -37,6 +39,10 @@
   
   .text__one{
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px 0px 100px;
+    align-self: center;
   }
   
   .text__one h1{
@@ -47,16 +53,26 @@
   }
   
   .text__one p{
+    
     font-weight: 200;
     font-size: 21px;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.6);
   }
   
-  .jobs{
+  .services{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+  }
+
+  .jobs {
+    margin-top: 10vw;
+    justify-content: center;
     display: grid;
-    grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 30% 30%;
+    gap: 32px;
+    grid-template-columns: 22% 22% 22%;
+    grid-template-rows: 22% 22% 22%;
   }
 }
 

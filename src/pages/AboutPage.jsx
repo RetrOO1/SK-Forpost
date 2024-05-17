@@ -1,15 +1,15 @@
 import React from "react";
 import '../styles/AboutPage.css'
-import Slider from "../components/UI/Slider_carousel/Slider";
+
 import PanelKaska from "../components/PanelKaska";
 import PanelChair from "../components/PanelChair";
 
 
-const About = () => {
+const AboutPage = () => {
     return(
         <div>
             <div className="img">
-                <img src="https://vk.com/doc251462616_679977152?hash=oJUBPuO7uiiorVWrY7ZsHAQSEIfm6AjzJWwx4yEgOPX&dl=pdMUNnUkd8Rwm7aV2voBm9JCLAe2keMIIGkXcEhOHHT" alt="" />
+                <img src="https://i.postimg.cc/QdXHbvry/Image.png" alt="" />
             </div>
             <div className="about">
                 <div className="circle">
@@ -26,34 +26,35 @@ const About = () => {
                         </defs>
                     </svg>
                 </div>
-                <div className="text__one">
-                    <h1>Оказываем полный спектр услуг </h1>
-                    <h1>проектирования и строительства</h1>
-                    <p>Мы делаем ставку не на большое количество заказов, </p>
-                    <p>а на профессиональный подход к их выполнению,</p>
-                    <p>что позволило нам заработать репутацию надежного</p>
-                    <p>и добросовестного бизнес-партнера</p>
+                <div className="services">
+                    <div className="text__one">
+                        <h1>Оказываем полный спектр услуг проектирования и строительства</h1>
+                        <p>Мы делаем ставку не на большое количество заказов, а на профессиональный подход к их выполнению, </p>
+                        <p>что позволило нам заработать репутацию надежного</p>
+                        <p>и добросовестного бизнес-партнера</p>
+                    </div>
+                    <div className="jobs">
+                        <div className="job1">
+                            <img src="https://i.postimg.cc/LsW5mXgc/Image-2.png" alt="#" />
+                        </div>
+                        <div className="job2">
+                            <img src="https://i.postimg.cc/LsW5mXgc/Image-2.png" alt="#" />
+                        </div>
+                        <div className="job3">
+                            <img src="https://i.postimg.cc/LsW5mXgc/Image-2.png" alt="#" />
+                        </div>
+                        <div className="job4">
+                            <img src="https://i.postimg.cc/LsW5mXgc/Image-2.png" alt="#" />
+                        </div>
+                        <div className="job5">
+                            <img src="https://i.postimg.cc/LsW5mXgc/Image-2.png" alt="#" />
+                        </div>
+                        <div className="job6">
+                            <img src="https://i.postimg.cc/LsW5mXgc/Image-2.png" alt="#" />
+                        </div>
+                    </div>
                 </div>
-                <div className="jobs">
-                    <div className="job1">
-                        <img src="https://i.ibb.co/JjvbJwV/Image-3.png" alt="" />
-                    </div>
-                    <div className="job2">
-                        <img src="https://i.ibb.co/JjvbJwV/Image-3.png" alt="" />
-                    </div>
-                    <div className="job3">
-                        <img src="https://i.ibb.co/JjvbJwV/Image-3.png" alt="" />
-                    </div>
-                    <div className="job4">
-                        <img src="https://i.ibb.co/JjvbJwV/Image-3.png" alt="" />
-                    </div>
-                    <div className="job5">
-                        <img src="https://i.ibb.co/JjvbJwV/Image-3.png" alt="" />
-                    </div>
-                    <div className="job6">
-                        <img src="https://i.ibb.co/JjvbJwV/Image-3.png" alt="" />
-                    </div>
-                </div>
+                    
                 <PanelKaska/>
                 <PanelChair/>
             </div> 
@@ -61,4 +62,4 @@ const About = () => {
     )
 }
 
-export default About
+export default AboutPage
